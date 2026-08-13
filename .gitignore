@@ -1,0 +1,27 @@
+# GHC build artifacts (you never commit these)
+*.hi
+*.o
+*.p_hi
+*.p_o
+*.tix
+.hie/
+
+# Compiled binaries named after their source (e.g. ch01/play)
+ch*/*/play
+ch*/*/[Mm]ain
+
+# Local plain-text dump of the book (personal study index only)
+docs/.book-text.txt
+
+# Stack (if you ever use it here)
+.stack-work/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+docs/
+TFWH
